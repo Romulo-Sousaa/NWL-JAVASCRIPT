@@ -17,47 +17,56 @@ Como um lego, você irá utilizar peças para criar algoritimos, ou seja, para r
 
 # Fases da resolução de um problema
 
-Coletar dados
-Processar os dados (manipular, alterar ...)
-Apresentar os dados
+- Coletar dados
+- Processar os dados (manipular, alterar ...)
+- Apresentar os dados
 
 ## Escopo e variáveis
 
-[x]Variáveis globais
-[x]Constantes
+- [x]Variáveis globais
+- [x]Constantes
 
 ## Tipos de dados
 
-[x]Strings (textos): ""  ''  ``
-[x]Number: 2  1.4 
-[x]Boolean: verdadeir/falso 
+- [x]Strings (textos): ""  ''  ``
+- [x]Number: 2  1.4 
+- [x]Boolean: verdadeir/falso 
 
 # Operadores
 
-[x]Operadores de atribuição e valor
-[x]Operador de concatenação
+- [x]Operadores de atribuição e valor
+- [x]Operador de concatenação
 
 ### Arrays: 
 
-[x]Uma lista que contém qualque tipo de dado
+- [x]Uma lista que contém qualque tipo de dado
 
 ### Objetos: 
 
-[x]Atributos e métodos
-[x]Criação e manipulação de objetos
-[x]Acesso a propriedades de objetos --> FEITO ATRAVÉS DO PONTINHO
+- [x]Atributos e métodos
+- [x]Criação e manipulação de objetos
+- [x]Acesso a propriedades de objetos --> FEITO ATRAVÉS DO PONTINHO
 
 ### Functions
 
-[x]Criar , passar argumento
-[x]Executar
-[x]Arrow function / Named function
+- [x]Criar , passar argumento
+- [x]Executar
+- [x]Arrow function / Named function
 
 # Estrutura de repetição
 
-[x]Estrutura while
+- [x]Estrutura while
 
 # Condicionais
 
-[x] switch
+- [x]switch
+
+## Módulos em Node.js:
+
+- [x]Importação de módulos (require, CommomJS)
+- Biblioteca 'inquirer' para criar prompts
+
+## Programação assíncrona e promessas:
+
+- [x]Uso de funções assíncronas (async/await)
 
