@@ -57,3 +57,7 @@ Apresentar os dados
 
 [x]Estrutura while
 
+# Condicionais
+
+[x] switch
+
