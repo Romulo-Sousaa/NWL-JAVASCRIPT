@@ -37,10 +37,12 @@ Como um lego, você irá utilizar peças para criar algoritimos, ou seja, para r
 - [x]Operadores de atribuição e valor =
 - [x]Operador de concatenação +
 - [x]Operador de comparação ==  !=  <=  >=  <  > //retorna um booolean
+- [x]Spread operator: ...
 
 ### Arrays: 
 
 - [x]Uma lista que contém qualque tipo de dado
+- [x]Métodos de array: push, [find, forEach, filter] : HOR (Higher Order Functions)
 
 ### Objetos: 
 

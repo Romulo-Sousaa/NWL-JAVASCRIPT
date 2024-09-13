@@ -1,4 +1,4 @@
-const { select, input, checkbox } = require('@inquirer/prompts') //isso devolverá um objeto
+const { select, input, checkbox, filter } = require('@inquirer/prompts') //isso devolverá um objeto
 
 let meta = {
     value: 'Tomar 3L de água por dia',
@@ -16,7 +16,7 @@ const cadastrarMeta = async () => {
         return;
     }
 
-    metas.push(
+    metas.push( //o método push adiciona valores ao array metas
         {value: meta, checked: false}
     )
 }
@@ -45,7 +45,23 @@ const listarMetas = async () => {
         meta.checked = true;
     })
 
-    console.log('Meta(s) marcadas como concluída(s)');
+    console.log('Meta(s) marcada(s) como concluída(s)');
+}
+
+const metasRealizadas = async () => {
+    const realizadas = metas.filter((metas) => {
+        return meta.checked
+    })
+
+    if(realizadas.length == 0) {
+        console.log('Não existe metas realizadas! :(');
+        return;
+    }
+
+    await select({
+        message: "Metas Realizadas",
+        choices: [...realizadas]
+    })
 }
 
 const start = async () => {
@@ -63,11 +79,16 @@ const start = async () => {
                     value: "listar"
                 },
                 {
+                    name: "Metas realizadas",
+                    value: "realizadas"
+                },
+                {
                     name: "Sair",
                     value: "sair"
                 }
             ]
         })
+
         switch(opcao) {
             case "cadastrar":
                 await cadastrarMeta();
@@ -75,6 +96,9 @@ const start = async () => {
                 break
             case "listar":
                 await listarMetas();
+                break
+            case "realizadas":
+                await metasRealizadas();
                 break
             case "sair":
                 console.log("Até a próxima");
