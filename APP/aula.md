@@ -42,7 +42,7 @@ Como um lego, você irá utilizar peças para criar algoritimos, ou seja, para r
 ### Arrays: 
 
 - [x]Uma lista que contém qualque tipo de dado
-- [x]Métodos de array: push, [find, forEach, filter] : HOR (Higher Order Functions)
+- [x]Métodos de array: push, [find, forEach, filter, map] : HOR (Higher Order Functions)
 
 ### Objetos: 
 
@@ -68,7 +68,7 @@ Como um lego, você irá utilizar peças para criar algoritimos, ou seja, para r
 ## Módulos em Node.js:
 
 - [x]Importação de módulos (require, CommomJS)
-- Biblioteca 'inquirer' para criar prompts
+- [x]Biblioteca 'inquirer' para criar prompts
 
 ## Programação assíncrona e promessas:
 
