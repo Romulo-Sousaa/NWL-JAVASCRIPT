@@ -1,0 +1,10 @@
+[
+  {
+    "value": "Correr 30 minutos por dia",
+    "checked": true
+  },
+  {
+    "value": "Ir para a academia",
+    "checked": false
+  }
+]
